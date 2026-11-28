@@ -1,0 +1,134 @@
+[
+ {
+  "id": "TC01",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 1,
+  "last": {
+   "course": "Software Engineering",
+   "title": "Assignment 06"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC02",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 1,
+  "last": {
+   "course": "Computer Architecture",
+   "title": "Lab 3 Report"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC03",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 1,
+  "last": {
+   "course": "Cloud Computing Fundamentals 1",
+   "title": "Final Project Report xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC04",
+  "stored": false,
+  "msg": "Course name cannot exceed 30 characters.",
+  "count": 1,
+  "last": {
+   "course": "Mathematics",
+   "title": "Problem Set 1"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC05",
+  "stored": false,
+  "msg": "Assignment title cannot exceed 80 characters.",
+  "count": 1,
+  "last": {
+   "course": "Mathematics",
+   "title": "Problem Set 1"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC06",
+  "stored": false,
+  "msg": "Course name cannot be empty.",
+  "count": 1,
+  "last": {
+   "course": "Mathematics",
+   "title": "Problem Set 1"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC07",
+  "stored": false,
+  "msg": "Assignment title cannot be empty.",
+  "count": 1,
+  "last": {
+   "course": "Mathematics",
+   "title": "Problem Set 1"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC08",
+  "stored": false,
+  "msg": "This assignment already exists in this course.",
+  "count": 1,
+  "last": {
+   "course": "Software Engineering",
+   "title": "Assignment 06"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC09",
+  "stored": false,
+  "msg": "This assignment already exists in this course.",
+  "count": 1,
+  "last": {
+   "course": "Software Engineering",
+   "title": "Assignment 06"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC10",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 2,
+  "last": {
+   "course": "Computer Architecture",
+   "title": "Assignment 06"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC11",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 2,
+  "last": {
+   "course": "Software Engineering",
+   "title": "Assignment  06"
+  },
+  "passed": true
+ },
+ {
+  "id": "TC12",
+  "stored": false,
+  "msg": "This assignment already exists in this course.",
+  "count": 2,
+  "last": {
+   "course": "Mathematics",
+   "title": "Problem Set 1"
+  },
+  "passed": true
+ }
+]

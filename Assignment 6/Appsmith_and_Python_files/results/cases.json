@@ -1,0 +1,203 @@
+[
+ {
+  "id": "TC01",
+  "name": "Normal valid assignment",
+  "type": "Normal",
+  "pre": [],
+  "course": "Software Engineering",
+  "title": "Assignment 06",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 1,
+  "store_as": [
+   "Software Engineering",
+   "Assignment 06"
+  ]
+ },
+ {
+  "id": "TC02",
+  "name": "Leading/trailing whitespace trimmed",
+  "type": "Normal",
+  "pre": [],
+  "course": "  Computer Architecture  ",
+  "title": "  Lab 3 Report  ",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 1,
+  "store_as": [
+   "Computer Architecture",
+   "Lab 3 Report"
+  ]
+ },
+ {
+  "id": "TC03",
+  "name": "Upper boundary accepted (30 / 80 chars)",
+  "type": "Boundary",
+  "pre": [],
+  "course": "Cloud Computing Fundamentals 1",
+  "title": "Final Project Report xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 1,
+  "store_as": [
+   "Cloud Computing Fundamentals 1",
+   "Final Project Report xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  ]
+ },
+ {
+  "id": "TC04",
+  "name": "Course 31 chars rejected",
+  "type": "Boundary/invalid",
+  "pre": [
+   [
+    "Mathematics",
+    "Problem Set 1"
+   ]
+  ],
+  "course": "Cloud Computing Fundamentals 12",
+  "title": "Quiz 1",
+  "stored": false,
+  "msg": "Course name cannot exceed 30 characters.",
+  "count": 1
+ },
+ {
+  "id": "TC05",
+  "name": "Title 81 chars rejected",
+  "type": "Boundary/invalid",
+  "pre": [
+   [
+    "Mathematics",
+    "Problem Set 1"
+   ]
+  ],
+  "course": "Mathematics",
+  "title": "Final Project Report xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxy",
+  "stored": false,
+  "msg": "Assignment title cannot exceed 80 characters.",
+  "count": 1
+ },
+ {
+  "id": "TC06",
+  "name": "Whitespace-only course rejected",
+  "type": "Invalid",
+  "pre": [
+   [
+    "Mathematics",
+    "Problem Set 1"
+   ]
+  ],
+  "course": "   ",
+  "title": "Assignment 06",
+  "stored": false,
+  "msg": "Course name cannot be empty.",
+  "count": 1
+ },
+ {
+  "id": "TC07",
+  "name": "Whitespace-only title rejected",
+  "type": "Invalid",
+  "pre": [
+   [
+    "Mathematics",
+    "Problem Set 1"
+   ]
+  ],
+  "course": "Software Engineering",
+  "title": "   ",
+  "stored": false,
+  "msg": "Assignment title cannot be empty.",
+  "count": 1
+ },
+ {
+  "id": "TC08",
+  "name": "Repeated identical add rejected",
+  "type": "Repeated operation",
+  "pre": [
+   [
+    "Software Engineering",
+    "Assignment 06"
+   ]
+  ],
+  "course": "Software Engineering",
+  "title": "Assignment 06",
+  "stored": false,
+  "msg": "This assignment already exists in this course.",
+  "count": 1
+ },
+ {
+  "id": "TC09",
+  "name": "Duplicate ignoring capitalization rejected",
+  "type": "Repeated/invalid",
+  "pre": [
+   [
+    "Software Engineering",
+    "Assignment 06"
+   ]
+  ],
+  "course": "software engineering",
+  "title": "ASSIGNMENT 06",
+  "stored": false,
+  "msg": "This assignment already exists in this course.",
+  "count": 1
+ },
+ {
+  "id": "TC10",
+  "name": "Same title in another course accepted",
+  "type": "Normal",
+  "pre": [
+   [
+    "Software Engineering",
+    "Assignment 06"
+   ]
+  ],
+  "course": "Computer Architecture",
+  "title": "Assignment 06",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 2,
+  "store_as": [
+   "Computer Architecture",
+   "Assignment 06"
+  ]
+ },
+ {
+  "id": "TC11",
+  "name": "Inner spaces kept; not a duplicate",
+  "type": "Boundary (normalization)",
+  "pre": [
+   [
+    "Software Engineering",
+    "Assignment 06"
+   ]
+  ],
+  "course": "Software Engineering",
+  "title": "Assignment  06",
+  "stored": true,
+  "msg": "Assignment successfully added!",
+  "count": 2,
+  "store_as": [
+   "Software Engineering",
+   "Assignment  06"
+  ]
+ },
+ {
+  "id": "TC12",
+  "name": "Error after valid data leaves list unchanged",
+  "type": "Error feedback",
+  "pre": [
+   [
+    "Software Engineering",
+    "Assignment 06"
+   ],
+   [
+    "Mathematics",
+    "Problem Set 1"
+   ]
+  ],
+  "course": "Mathematics",
+  "title": "problem set 1",
+  "stored": false,
+  "msg": "This assignment already exists in this course.",
+  "count": 2
+ }
+]
